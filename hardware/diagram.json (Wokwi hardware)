@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Smart Parking System",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0 },
+
+    { "type": "wokwi-hc-sr04", "id": "s1", "top": -150, "left": -200 },
+    { "type": "wokwi-hc-sr04", "id": "s2", "top": -150, "left": 200 },
+
+    { "type": "wokwi-led", "id": "red", "top": 150, "left": -100, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "green", "top": 150, "left": 100, "attrs": { "color": "green" } }
+  ],
+
+  "connections": [
+    ["esp:GPIO5", "s1:TRIG", "green"],
+    ["esp:GPIO18", "s1:ECHO", "green"],
+
+    ["esp:GPIO19", "s2:TRIG", "blue"],
+    ["esp:GPIO21", "s2:ECHO", "blue"],
+
+    ["esp:GPIO23", "red:A", "red"],
+    ["esp:GND", "red:C", "black"],
+
+    ["esp:GPIO22", "green:A", "green"],
+    ["esp:GND", "green:C", "black"]
+  ]
+}
