@@ -60,9 +60,9 @@ See `/src` and `/hardware` folders for implementation details.
 
 ---
 
-## 🧪 Live Simulation (Wokwi)
+## Live Simulation (Wokwi)
 Run the project online here:  
-https://wokwi.com/projects/your-project-id
+https://wokwi.com/projects/426055613534848001
 
 ---
 
