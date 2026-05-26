@@ -60,6 +60,12 @@ See `/src` and `/hardware` folders for implementation details.
 
 ---
 
+## 🧪 Live Simulation (Wokwi)
+Run the project online here:  
+https://wokwi.com/projects/your-project-id
+
+---
+
 ## Author
 Harshitha M
 IoT + Data Analytics Enthusiast
