@@ -6,11 +6,11 @@
 
 ---
 
--ESP32 DevKit v1
--2 × Ultrasonic Sensors (HC-SR04) → parking slots
--2 × LEDs (Green / Red) → slot status
--1 × Buzzer → alert (optional safety)
--Resistors (internal simulation handles most)
+- ESP32 (MicroPython / Arduino)
+- HC-SR04 Ultrasonic Sensor
+- WiFi (Wokwi-GUEST / Mobile Hotspot)
+- ThingSpeak / Firebase (optional)
+- Wokwi Simulator
 
 ---
 
